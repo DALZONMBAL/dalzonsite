@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  >
+
+  <meta name="theme-color" content="#08111f">
+
+  <meta
+    name="description"
+    content="DALZON ENTERPRISE — Innovation, technologie et solutions numériques."
+  >
+
+  <title>Hors connexion | DALZON ENTERPRISE</title>
+
+  <link
+    rel="icon"
+    href="https://i.postimg.cc/25ybsY08/1782158628703.jpg"
+    type="image/jpeg"
+  >
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      min-height: 100%;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Arial,
+        sans-serif;
+
+      color: #ffffff;
+
+      background:
+        radial-gradient(
+          circle at top left,
+          rgba(0, 140, 255, 0.20),
+          transparent 35%
+        ),
+        radial-gradient(
+          circle at bottom right,
+          rgba(0, 255, 190, 0.12),
+          transparent 35%
+        ),
+        #08111f;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 520px;
+      text-align: center;
+    }
+
+    .card {
+      padding: 42px 28px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 30px;
+
+      background: rgba(255, 255, 255, 0.07);
+      backdrop-filter: blur(22px);
+      -webkit-backdrop-filter: blur(22px);
+
+      box-shadow:
+        0 25px 80px rgba(0, 0, 0, 0.35),
+        inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    }
+
+    .logo {
+      width: 92px;
+      height: 92px;
+      object-fit: cover;
+      border-radius: 24px;
+      display: block;
+      margin: 0 auto 25px;
+
+      box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.35);
+    }
+
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 14px;
+      margin-bottom: 20px;
+
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 999px;
+
+      background: rgba(255, 255, 255, 0.06);
+
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #ffb020;
+      box-shadow: 0 0 12px rgba(255, 176, 32, 0.7);
+    }
+
+    h1 {
+      font-size: clamp(30px, 8vw, 46px);
+      line-height: 1.08;
+      margin-bottom: 16px;
+      letter-spacing: -1.5px;
+    }
+
+    .highlight {
+      background: linear-gradient(
+        90deg,
+        #ffffff,
+        #8fdcff
+      );
+
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    p {
+      max-width: 410px;
+      margin: 0 auto;
+      color: rgba(255, 255, 255, 0.68);
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    .button {
+      margin-top: 28px;
+      width: 100%;
+      max-width: 300px;
+      min-height: 54px;
+
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 17px;
+
+      background: rgba(255, 255, 255, 0.10);
+      color: #ffffff;
+
+      font-size: 15px;
+      font-weight: 700;
+
+      cursor: pointer;
+
+      box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.20),
+        inset 0 1px 0 rgba(255, 255, 255, 0.10);
+
+      transition:
+        transform 0.25s ease,
+        background 0.25s ease,
+        box-shadow 0.25s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-3px);
+      background: rgba(255, 255, 255, 0.15);
+
+      box-shadow:
+        0 18px 35px rgba(0, 0, 0, 0.28),
+        inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    }
+
+    .button:active {
+      transform: scale(0.97);
+    }
+
+    .footer {
+      margin-top: 24px;
+      color: rgba(255, 255, 255, 0.38);
+      font-size: 12px;
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 16px;
+      }
+
+      .card {
+        padding: 34px 20px;
+        border-radius: 25px;
+      }
+
+      .logo {
+        width: 82px;
+        height: 82px;
+        border-radius: 21px;
+      }
+
+      p {
+        font-size: 15px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .button {
+        transition: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <section class="card">
+
+      <img
+        class="logo"
+        src="https://i.postimg.cc/25ybsY08/1782158628703.jpg"
+        alt="Logo DALZON ENTERPRISE"
+      >
+
+      <div class="status">
+        <span class="dot"></span>
+        Hors connexion
+      </div>
+
+      <h1>
+        Vous êtes <span class="highlight">hors ligne</span>
+      </h1>
+
+      <p>
+        Votre connexion Internet semble indisponible.
+        Vérifiez votre connexion puis réessayez.
+        Certaines parties de DALZON ENTERPRISE restent
+        accessibles grâce au mode hors connexion.
+      </p>
+
+      <button
+        class="button"
+        type="button"
+        onclick="window.location.reload()"
+      >
+        Réessayer la connexion
+      </button>
+
+      <div class="footer">
+        © <span id="year"></span> DALZON ENTERPRISE
+      </div>
+
+    </section>
+
+  </main>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+
+</body>
+</html>
