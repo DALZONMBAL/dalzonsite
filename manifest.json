@@ -1,0 +1,37 @@
+{
+  "name": "DALZON ENTERPRISE",
+  "short_name": "DALZON",
+  "description": "DALZON ENTERPRISE — Innovation, technologie et impact.",
+  "lang": "fr",
+  "dir": "ltr",
+
+  "start_url": "/",
+  "scope": "/",
+
+  "display": "standalone",
+  "orientation": "portrait-primary",
+
+  "background_color": "#08111f",
+  "theme_color": "#08111f",
+
+  "categories": [
+    "business",
+    "education",
+    "technology"
+  ],
+
+  "icons": [
+    {
+      "src": "https://i.postimg.cc/25ybsY08/1782158628703.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "https://i.postimg.cc/25ybsY08/1782158628703.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
